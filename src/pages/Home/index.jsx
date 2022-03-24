@@ -63,10 +63,10 @@ export default function Home() {
               Our publication for blogs & articles is available on Medium, one of the great blogging platform.
             </div>
             <div className="link">
-              <a href="https://blog.theboringschool.org" target="_blank">
+              <a href="https://blog.theboringschool.org" target="_blank" rel="noreferrer">
                 blog.theboringschool.org
               </a>
-              <a href="https://blog.theboringschool.org" target="_blank">
+              <a href="https://blog.theboringschool.org" target="_blank" rel="noreferrer">
                 <i className="ri-arrow-right-line"></i>
               </a>
             </div>
@@ -79,10 +79,10 @@ export default function Home() {
               We're live on Anchor, podcast platform by Spotify, we'll also be live on Google, Apple, Amazon Podcasts.
             </div>
             <div className="link">
-              <a href="https://anchor.fm/theboringschool" target="_blank">
+              <a href="https://anchor.fm/theboringschool" target="_blank" rel="noreferrer">
                 anchor.fm/theboringschool
               </a>
-              <a href="https://anchor.fm/theboringschool" target="_blank">
+              <a href="https://anchor.fm/theboringschool" target="_blank" rel="noreferrer">
                 <i className="ri-arrow-right-line"></i>
               </a>
             </div>
