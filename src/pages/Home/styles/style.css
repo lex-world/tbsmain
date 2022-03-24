@@ -1,0 +1,113 @@
+.home__container .home__container__landing {
+  margin: 50px 5vw;
+  display: flex;
+  align-items: center; }
+  .home__container .home__container__landing .home__container__landing__content,
+  .home__container .home__container__landing img {
+    flex: 1 1 0; }
+  .home__container .home__container__landing .home__container__landing__content .highlight {
+    font-size: 2.8em;
+    line-height: 1.2;
+    font-weight: 500; }
+    .home__container .home__container__landing .home__container__landing__content .highlight i {
+      font-family: "Caveat", cursive;
+      font-size: 1.3em;
+      color: #27ae60;
+      font-weight: 600; }
+  .home__container .home__container__landing .home__container__landing__content form {
+    margin: 35px 0;
+    display: flex; }
+    .home__container .home__container__landing .home__container__landing__content form input {
+      background: none;
+      border: none;
+      width: 25vw;
+      padding: 10px;
+      font-size: 20px;
+      border-bottom: 0.5px solid #dedede;
+      color: #dedede; }
+      .home__container .home__container__landing .home__container__landing__content form input:focus {
+        outline: none; }
+    .home__container .home__container__landing .home__container__landing__content form button {
+      padding: 10px 20px;
+      margin-left: 10px;
+      font-size: 16px;
+      background: #c65c35;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer; }
+  .home__container .home__container__landing .home__container__landing__content .input__label {
+    font-size: 19px; }
+  .home__container .home__container__landing img {
+    border-radius: 15px;
+    height: 60vh;
+    object-fit: cover; }
+.home__container .home__container__missionPipeline {
+  margin: 0 5vw; }
+  .home__container .home__container__missionPipeline .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 19px; }
+    .home__container .home__container__missionPipeline .title button {
+      background: none;
+      border: none;
+      font-size: 19px;
+      text-decoration: underline;
+      cursor: pointer; }
+  .home__container .home__container__missionPipeline .items {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; }
+    .home__container .home__container__missionPipeline .items a {
+      text-decoration: none; }
+    .home__container .home__container__missionPipeline .items .items__blog,
+    .home__container .home__container__missionPipeline .items .items__podcast,
+    .home__container .home__container__missionPipeline .items .items__course {
+      border: 0.5px solid #dedede;
+      padding: 20px 30px;
+      border-radius: 8px;
+      width: 28vw; }
+      .home__container .home__container__missionPipeline .items .items__blog .item_title,
+      .home__container .home__container__missionPipeline .items .items__podcast .item_title,
+      .home__container .home__container__missionPipeline .items .items__course .item_title {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        gap: 10px; }
+        .home__container .home__container__missionPipeline .items .items__blog .item_title span,
+        .home__container .home__container__missionPipeline .items .items__podcast .item_title span,
+        .home__container .home__container__missionPipeline .items .items__course .item_title span {
+          font-size: 19px; }
+        .home__container .home__container__missionPipeline .items .items__blog .item_title img,
+        .home__container .home__container__missionPipeline .items .items__podcast .item_title img,
+        .home__container .home__container__missionPipeline .items .items__course .item_title img {
+          width: 40px;
+          height: 40px;
+          border-radius: 5px; }
+      .home__container .home__container__missionPipeline .items .items__blog .description,
+      .home__container .home__container__missionPipeline .items .items__podcast .description,
+      .home__container .home__container__missionPipeline .items .items__course .description {
+        margin: 20px 0;
+        line-height: 1.5;
+        color: #838383; }
+      .home__container .home__container__missionPipeline .items .items__blog .link,
+      .home__container .home__container__missionPipeline .items .items__podcast .link,
+      .home__container .home__container__missionPipeline .items .items__course .link {
+        border-top: 0.5px solid #dedede;
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+    .home__container .home__container__missionPipeline .items .items__podcast {
+      background: linear-gradient(-45deg, rgba(252, 70, 107, 0.5), rgba(63, 94, 251, 0.5));
+      border: none; }
+      .home__container .home__container__missionPipeline .items .items__podcast .description {
+        color: #fff; }
+    .home__container .home__container__missionPipeline .items .items__course button {
+      font-size: 15px;
+      background: none;
+      border: none; }
+
+/*# sourceMappingURL=style.css.map */

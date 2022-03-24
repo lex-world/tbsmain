@@ -1,0 +1,160 @@
+.home__container {
+  // section => landing
+  .home__container__landing {
+    margin: 50px 5vw;
+    display: flex;
+    align-items: center;
+
+    .home__container__landing__content,
+    img {
+      flex: 1 1 0;
+    }
+
+    .home__container__landing__content {
+      .highlight {
+        font-size: 2.8em;
+        line-height: 1.2;
+        font-weight: 500;
+
+        i {
+          font-family: "Caveat", cursive;
+          font-size: 1.3em;
+          color: #27ae60;
+          font-weight: 600;
+        }
+      }
+
+      form {
+        margin: 35px 0;
+        display: flex;
+
+        input {
+          background: none;
+          border: none;
+          width: 25vw;
+          padding: 10px;
+          font-size: 20px;
+          border-bottom: 0.5px solid #dedede;
+          color: #dedede;
+
+          &:focus {
+            outline: none;
+          }
+        }
+
+        button {
+          padding: 10px 20px;
+          margin-left: 10px;
+          font-size: 16px;
+          background: #c65c35;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+        }
+      }
+
+      .input__label {
+        font-size: 19px;
+      }
+    }
+
+    img {
+      border-radius: 15px;
+      height: 60vh;
+      object-fit: cover;
+    }
+  }
+
+  // section => mission pipeline
+  .home__container__missionPipeline {
+    margin: 0 5vw;
+
+    .title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 19px;
+
+      button {
+        background: none;
+        border: none;
+        font-size: 19px;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+
+    .items {
+      margin-top: 30px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      a {
+        text-decoration: none;
+      }
+
+      .items__blog,
+      .items__podcast,
+      .items__course {
+        border: 0.5px solid #dedede;
+        padding: 20px 30px;
+        border-radius: 8px;
+        width: 28vw;
+
+        .item_title {
+          margin-bottom: 10px;
+          display: flex;
+          align-items: center;
+          font-weight: 500;
+          gap: 10px;
+
+          span {
+            font-size: 19px;
+          }
+
+          img {
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+          }
+        }
+
+        .description {
+          margin: 20px 0;
+          line-height: 1.5;
+          color: #838383;
+        }
+
+        .link {
+          border-top: 0.5px solid #dedede;
+          padding-top: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
+
+      .items__podcast {
+        background: linear-gradient(
+          -45deg,
+          rgba(252, 70, 107, 0.5),
+          rgba(63, 94, 251, 0.5)
+        );
+        border: none;
+
+        .description {
+          color: #fff;
+        }
+      }
+
+      .items__course{
+        button{
+          font-size: 15px;
+          background: none;
+          border: none;
+        }
+      }
+    }
+  }
+}
