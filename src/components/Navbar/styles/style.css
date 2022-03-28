@@ -3,7 +3,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff; }
+  color: #fff;
+  flex-wrap: wrap; }
   .navbar__container ul {
     list-style: none;
     display: flex;
@@ -12,7 +13,7 @@
     .navbar__container ul li {
       font-weight: 500; }
       .navbar__container ul li.highlight {
-        background: #C65C35;
+        background: #c65c35;
         color: #fff;
         padding: 10px 35px;
         border-radius: 20px; }
@@ -30,5 +31,8 @@
         border-radius: 5px; }
       .navbar__container .navbar__container__left .navbar__container__left__logo p {
         font-weight: 500; }
+  @media (max-width: 768px) {
+    .navbar__container .navbar__container__center, .navbar__container .navbar__container__right {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */

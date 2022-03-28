@@ -4,6 +4,8 @@
     margin: 50px 5vw;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     .home__container__landing__content,
     img {
@@ -15,6 +17,10 @@
         font-size: 2.8em;
         line-height: 1.2;
         font-weight: 500;
+
+        @media (max-width: 768px){
+          font-size: 2em;
+        }
 
         i {
           font-family: "Caveat", cursive;
@@ -37,6 +43,10 @@
           border-bottom: 0.5px solid #dedede;
           color: #dedede;
 
+          @media (max-width: 768px){
+            width: 60vw;
+          }
+
           &:focus {
             outline: none;
           }
@@ -55,6 +65,11 @@
 
       .input__label {
         font-size: 19px;
+        
+        @media (max-width: 768px){
+          font-size: 17px;
+          line-height: 1.5;
+        }
       }
     }
 
@@ -62,12 +77,19 @@
       border-radius: 15px;
       height: 60vh;
       object-fit: cover;
+
+      @media (max-width: 768px) {
+        width: 85vw;
+        height: 30vh;
+        margin-top: 40px;
+      }
     }
   }
 
   // section => mission pipeline
   .home__container__missionPipeline {
     margin: 0 5vw;
+    margin-bottom: 40px;
 
     .title {
       display: flex;
@@ -89,6 +111,13 @@
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
+      flex-wrap: wrap;
+
+      @media (max-width: 768px){
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+      }
 
       a {
         text-decoration: none;
@@ -101,6 +130,10 @@
         padding: 20px 30px;
         border-radius: 8px;
         width: 28vw;
+
+        @media (max-width: 768px) {
+          width: 85vw;
+        }
 
         .item_title {
           margin-bottom: 10px;
