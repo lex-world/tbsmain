@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/style.css";
 
-import BannerImage from "../../assets/face-glitch.png";
+// import BannerImage from "../../assets/face-glitch.png";
 
 /**
  * @components
@@ -40,7 +40,7 @@ export default function Home() {
             *Keep updated with our latest new and updates!
           </div>
         </div>
-        <img src={BannerImage} alt="Technological Glitch" />
+        <img src="https://ik.imagekit.io/theboringschool/The_Boring_School_-_UI/face-glitch_m3yi_DYvC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648473817908" alt="Technological Glitch" />
       </div>
 
       {/**
@@ -57,7 +57,7 @@ export default function Home() {
         <div className="items">
           <div className="items__blog">
             <div className="item_title">
-              <img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80" alt="blog" /> <span>Blogs</span>
+              <img src="https://ik.imagekit.io/theboringschool/The_Boring_School_-_UI/blog_9JVl-T6ah.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1648473994054/pr-true" alt="the boring school blog" /> <span>TBS Blogs</span>
             </div>
             <div className="description">
               Our publication for blogs & articles is available on Medium, one of the great blogging platform.
@@ -73,7 +73,7 @@ export default function Home() {
           </div>
           <div className="items__podcast">
             <div className="item_title">
-              <img src="https://images.unsplash.com/photo-1581547848545-a75a2634ba23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="podcast" /> <span>Podcasts</span>
+              <img src="https://ik.imagekit.io/theboringschool/The_Boring_School_-_UI/podcast_jOPhvQvgE.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1648473994508/pr-true" alt="The Boring School Podcast" /> <span>TBS Podcasts</span>
             </div>
             <div className="description">
               We're live on Anchor, podcast platform by Spotify, we'll also be live on Google, Apple, Amazon Podcasts.
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
           <div className="items__course">
             <div className="item_title">
-              <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80" alt="course" /> <span>Courses</span>
+              <img src="https://ik.imagekit.io/theboringschool/The_Boring_School_-_UI/course_MUanskljb.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1648473994575/pr-true" alt="The Boring School Course" /> <span>TBS Courses</span>
             </div>
             <div className="description">
               We'll be introducing LMS to represent our professional technical courses prepared by group of professionals.
