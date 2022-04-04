@@ -31,8 +31,11 @@
         border-radius: 5px; }
       .navbar__container .navbar__container__left .navbar__container__left__logo p {
         font-weight: 500; }
+  .navbar__container a {
+    text-decoration: none; }
   @media (max-width: 768px) {
-    .navbar__container .navbar__container__center, .navbar__container .navbar__container__right {
+    .navbar__container .navbar__container__center,
+    .navbar__container .navbar__container__right {
       display: none; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -46,8 +46,13 @@
     }
   }
 
+  a{
+    text-decoration: none;
+  }
+
   @media (max-width: 768px) {
-    .navbar__container__center, .navbar__container__right{
+    .navbar__container__center,
+    .navbar__container__right {
       display: none;
     }
   }
